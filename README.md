@@ -35,6 +35,7 @@ Alteração do Saldo da Empresa:
 Validação de Produtos da Empresa:
 - O código não impedia a compra de produtos de outras empresas a partir da empresa selecionada, pois não havia um filtro para relacionar cada produto com a espresa em questão. Antes de adicionar um produto ao carrinho, foi necessário verificar se o produto à ser comprado era realmente um produto da empresa selecionada.
 
+Outros erros:
 - Código não possuia break no switch case (Main.java), com isso poderia ocorrer erros como: executar outros cases, sair do menu a cada iteração.
 
 - Código Deslogava sempre que executava alguma ação, como finalizar compra. Foi necessário adiciona loop While(true) para cada menu, assim o programa não é encerrado.
