@@ -138,9 +138,8 @@ public class Main {
         return null;            
     }   
 
-    private static void adminMenu() {        
-        System.out.println("1 - Listar Usuários");
-        System.out.println("2 - Listar Empresas");
+    private static void adminMenu() {
+        System.out.println("1 - Listar Empresas");
         System.out.println("0 - Deslogar");
 		System.out.println("9 - Sair");
     }
